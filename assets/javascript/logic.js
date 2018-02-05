@@ -45,4 +45,6 @@ database.ref().on("child_added", function(childSnapshot) {
         + destination + "</td><td>" + frequency + "</td><td>"
         + moment(nextTrain).format("hh:mm a") + "</td><td>"
         + minutesTillTrain + "</td></tr");
+}, function(errorObject) {
+    console.log("Errors handled: " + errorObject.code);
 });
