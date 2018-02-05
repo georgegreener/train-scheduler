@@ -1,0 +1,15 @@
+body {
+    background-image: url(../images/train3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    background-color: aliceblue;
+    opacity: 0.75;
+}
+
+.jumbotron {
+    background-color: aliceblue;
+}
